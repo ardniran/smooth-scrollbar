@@ -29,6 +29,14 @@ export class Options {
   @boolean
   renderByPixels = true;
 
+
+  /**
+   * Start a requestAnimationFrame
+   */
+  @boolean
+  autoRender = true;
+
+  /**
   /**
    * Keep scrollbar tracks visible
    */
